@@ -1,0 +1,108 @@
+{
+    "id": 1.0,
+    "name": "Permutation of the Last Layer",
+    "short": "PLL",
+    "what": ["PLL"],
+    "description": "It solves the Permutation of the Last layer after the Orientation is done",
+    "when": "20",
+    "time": [
+        15,
+        6,
+        4,
+        3,
+        2
+    ],
+    "subsets": [
+        {
+            "id": 1,
+            "name": "Corners",
+            "algs": [
+                {
+                    "id": 1,
+                    "name": "Diagonal",
+                    "solution": ["F R U' R' U' R U R' F' R U R' U' R' F R F'"],
+                    "scrambles": [
+                        "U' B F U2 B' F U' L2 U R2 D' R2 U' B2 D R2 D' L2",
+                        "U' L R B2 L' R' B2 U F2 D' B2 R2 B2 D F2 U L2 U2 B2",
+                        "U F B L2 F B' U' B2 D2 L2 U' R2 U' F2 L2 D2 R2 U' F2",
+                        "U' L R' U2 L' R U2 B2 R2 U' R2 U2 B2 U R2 U2 R2 B2",
+                        "U2 R L U2 R L' U' F2 U B2 D' B2 U' L2 D B2 D' F2"
+                    ],
+                    "links": [],
+                    "img": "Diagonal"
+                }, {
+                    "id": 2,
+                    "name": "Headlights",
+                    "solution": "R U R' U' R' F R2 U' R' U' R U R' F'",
+                    "scrambles": [
+                        "U' L R U2 L' R B2 U F2 U' L2 U2 L2 F2 R2 D F2 D F2",
+                        "L R U2 L R U D' B2 U' B2 D L2 D' B2 D R2",
+                        "U2 R L U2 R L' B2 U R2 F2 L2 B2 U B2 U' L2 D F2",
+                        "U2 B F U2 B F' U F2 U' F2 D R2 D' R2 B2 F2 R2 F2",
+                        "U2 B F R2 B F' U2 B2 U B2 U' L2 F2 U' R2 U F2 D' L2"
+                    ],
+                    "links": [],
+                    "img": "Headlights"
+                }
+            ]
+        }, {
+            "id": 2,
+            "name": "Edges",
+            "algs": [
+                {
+                    "id": 3,
+                    "name": "PLL (H)",
+                    "solution": "M2 U M2 U2 M2 U M2",
+                    "scrambles": [
+                        "U' L R D2 L R D2 L2 F2 D2 F2 R2 B2 U2 L2 B2",
+                        "U B F D2 B F D2 B2 L2 D2 L2 F2 R2 U2 B2 R2",
+                        "L R D2 L R D2 L2 F2 D2 F2 R2 B2 U2 L2 B2",
+                        "U' L R D2 L R D2 L2 F2 D2 F2 R2 B2 U2 L2 B2",
+                        "U' F B D2 F B D2 F2 R2 D2 R2 B2 L2 U2 F2 L2"
+                    ],
+                    "links": [],
+                    "img": "PLL(H)"
+                }, {
+                    "id": 4,
+                    "name": "PLL (Ua)",
+                    "solution": "R U' R U R U R U' R' U' R2",
+                    "scrambles": [
+                        "U R2 U' F2 R2 F2 U R' L F2 D2 B2 U2 R L B2 D2",
+                        "U2 B2 U' L2 B2 L2 U L2 B2 L2 U2 L2 U2 B2 L2 B2 U2 L2",
+                        "R2 U' F2 R2 F2 U R' L F2 D2 B2 U2 R L B2 D2",
+                        "U2 R2 D' R2 F2 R2 D R L' F2 D2 B2 U2 R' L' B2 D2",
+                        "U' B2 D' B2 R2 B2 D B F' R2 D2 L2 U2 B' F' L2 D2"
+                    ],
+                    "links": [],
+                    "img": "PLL(Ua)"
+                }, {
+                    "id": 5,
+                    "name": "PLL (Ub)",
+                    "solution": "R2 U R U R' U' R' U' R' U R'",
+                    "scrambles": [
+                        "U' F2 D' F2 R2 B2 U R D2 F2 B2 U2 L' F2 R2 U2 B2",
+                        "U' R2 D' R2 B2 L2 U B D2 R2 L2 U2 F' R2 B2 U2 L2",
+                        "U2 L2 U B2 L2 B2 U B2 U2 B2 U2 L2 B2 L2 U2 L2",
+                        "U2 R2 U' F2 R2 F2 U R2 F2 U2 F2 R2 F2 U2 R2 F2 U2 R2",
+                        "U B2 U' R2 B2 R2 U B2 R2 U2 R2 B2 R2 U2 B2 R2 U2 B2"
+                    ],
+                    "links": [],
+                    "img": "PLL(Ub)"
+                }, {
+                    "id": 6,
+                    "name": "PLL (Z)",
+                    "solution": "M' U M2 U M2 U M' U2 M2",
+                    "scrambles": [
+                        "B F U2 B F' U L2 B2 L2 U B2 U L2 B2 L2 U B2",
+                        "L R U2 L R' U' L2 U' L2 U' L2 U' L2 U' L2 F2 L2 F2",
+                        "U' R L U2 R L' U' R2 U' R2 U' R2 U' R2 U' R2 B2 R2 B2",
+                        "U' L R U2 L R' U' L2 U' L2 U' L2 U' L2 U' L2 F2 L2 F2",
+                        "R L U2 R L' U B2 R2 B2 U R2 U B2 R2 B2 U R2"
+                    ],
+                    "links": [],
+                    "img": "PLL(Z)"
+                }
+            ]
+        }
+    ]
+}
